@@ -13,6 +13,7 @@ export class AppComponent implements OnDestroy {
 
   sub: Subscription;
   constructor() {
+    ort.env.wasm.wasmPaths = '/mnist-clock/';
     this.sub = from(ort.InferenceSession.create('./model.onnx')).pipe(
       switchMap(session => interval(50).pipe(map(_ => session))),
       switchMap(session => {
