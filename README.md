@@ -1,6 +1,6 @@
 # Mnist Clock
 
-[Running ONNX model in your browser](https://github.com/microsoft/onnxruntime) to generate clock digits on the fly. Training on [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database).
+[Running ONNX model in your browser](https://github.com/microsoft/onnxruntime) to generate clock digits on the fly. Trained on [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database).
 
 
 ![image](/docs/mnist-clock.gif)
